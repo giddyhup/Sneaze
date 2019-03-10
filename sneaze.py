@@ -21,8 +21,8 @@ while True:
     # we wait
 	time.sleep(N)
     # if either of the following files exist no sound is played
-	m = os.path.exists("/mnt/ramdisk/muted")
-	r = os.path.exists("/mnt/ramdisk/radio_is_on")
+	m = os.path.exists("/home/pi/muted")
+	r = os.path.exists("/home/pi/radio_is_on")
 	if m == False and r == False:
         # we pick a random file from directory d
 		f = random.choice(os.listdir(d))
