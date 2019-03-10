@@ -9,12 +9,12 @@ Random Coughing, Wheezing, Sneezing, Throat-clearing noises on a Raspberry Pi (o
 
 As user pi:
 
-    mkdir \~/sounds/sneaze
-    \# copy the WAV files to the directory (feel free to add your own)
-    mkdir \~/sounds/temp
-    mkdir \~/bin # if it doesn't exist
-    cp sneaze.py \~/bin/ 
-    chmod o+x \~/bin/sneaze.py
+    mkdir ~/sounds/sneaze
+    # copy the WAV files to the directory (feel free to add your own)
+    mkdir ~/sounds/temp
+    mkdir ~/bin # if it doesn't exist
+    cp sneaze.py ~/bin/ 
+    chmod o+x ~/bin/sneaze.py
     sudo cp sneaze.service /etc/systemd/system/
     sudo systemctl enable sneaze.service
     sudo systemctl start sneaze.service
