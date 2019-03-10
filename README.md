@@ -1,7 +1,7 @@
 # Sneaze
 Random Coughing, Wheezing, Sneezing, Throat-clearing noises on a Raspberry Pi (or similar Linux systems)
 
-Setup
+## Setup
 
 (On a Raspberry Pi under Raspbian with the default user pi that also has sudo rights to install a systemd service)
 
