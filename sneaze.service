@@ -1,0 +1,17 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Random Coughing, Wheezing, Sneezing, Throat-clearing
+Before=umount.target
+
+[Service]
+ExecStart=/home/pi/bin/sneaze.py
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/
+
+[Install]
+WantedBy=multi-user.target
+
