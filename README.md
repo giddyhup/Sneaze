@@ -12,7 +12,7 @@ Random Coughing, Wheezing, Sneezing, Throat-clearing noises on a Raspberry Pi (o
 * Execute as user pi:
 
     mkdir ~/sounds
-    # copy the WAV files to the directory (feel free to add your own)
+    \# copy the WAV files to the directory (feel free to add your own)
     mkdir ~/sounds/temp
     mkdir ~/sounds/interim
     mkdir -p ~/bin # if it doesn't exist
